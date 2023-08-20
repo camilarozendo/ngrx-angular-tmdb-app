@@ -1,0 +1,15 @@
+<div class="movie-item">
+    <app-movie-image [path]="movie.poster_path" [size]="200"></app-movie-image>
+
+    <div class="movie-item-info">
+        <h3>{{ movie.title }}</h3>
+
+        <div class="movie-item-description">
+            {{ movie.overview }}
+        </div>
+
+        <div class="movie-item-link">
+            <a [routerLink]="'/movie/' + movie.id">Ver detalhes</a>
+        </div>
+    </div>
+</div>

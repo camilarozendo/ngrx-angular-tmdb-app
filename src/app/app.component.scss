@@ -1,0 +1,20 @@
+.titleApp {
+    background: rgb(110, 81, 95);
+    padding: 20px;
+    margin: 25px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+
+    a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+            background: rgb(110, 81, 95);
+            color: rgb(186, 175, 181);
+        }
+    }
+}
