@@ -1,0 +1,15 @@
+<div class="search-bar">
+    <form (ngSubmit)="onInputQuery()">
+        <input
+            type="text"
+            id="search-movies-query"
+            name="search-movies-query"
+            placeholder="Título do filme..."
+            [(ngModel)]="searchQuery"
+        />
+
+        <button type="submit">Buscar</button>
+    </form>
+
+    <button class="reset-filter-button" (click)="onSearchReset()">Resetar Filtros</button>
+</div>

@@ -1,0 +1,47 @@
+.search-bar {      
+    width: 500px;
+    background: white;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+
+    form {
+        display: flex;
+        justify-content: center;
+
+        input[type="text"] {
+            border: 1px solid rgb(175, 186, 175);
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+
+            &:focus {
+                outline: 0;
+            }
+        }
+
+        button {
+            margin-left: 10px;
+            border: 0;
+            background: rgb(175, 186, 175);
+            color: white;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}
+
+.reset-filter-button {
+    border: 0;
+    border-radius: 5px;  
+    padding: 5px;
+    color: white;
+    background: rgb(175, 186, 175);
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;    
+}

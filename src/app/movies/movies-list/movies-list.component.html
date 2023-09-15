@@ -1,4 +1,12 @@
+<div class="search-container">
+    <app-search-movies
+        (onSearch)="onMoviesSearch($event)"
+        (onFormReset)="onSearchReset()"
+    ></app-search-movies>
+</div>
 <section class="movies-list ">
-    <app-movie-item *ngFor="let movieItem of movies" [movie]="movieItem"></app-movie-item>
+    <app-movie-item
+         *ngFor="let movieItem of movies" 
+         [movie]="movieItem"></app-movie-item>
 </section>
 

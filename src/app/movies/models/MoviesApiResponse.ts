@@ -1,6 +1,6 @@
 import { MovieOverview } from "./MovieOverview"
 
-export interface PopularMoviesResponse {
+export interface MoviesApiResponse {
     page: number
     results: Array<MovieOverview>
     total_pages: number
